@@ -27,8 +27,8 @@ class _AccountWidgetState extends State<AccountWidget> {
   String result = '';
   String bankCode;
   String bankName;
-  List _bankCodes = ['044', '063', '050', '035', '232', '033', '011', '215', ];
-  List banks = ['Access Bank', 'Diamond Bank', 'Ecobank', 'Wema Bank', 'Sterling Bank', 'United Bank Of Africa', 'First Bank', 'Unity Bank', ];
+    List _bankCodes = ['044', '063', '050', '035', '232', '033', '011', '215', '070', '301', '039', '058', '076', '50211'];
+  List banks = ['Access Bank', 'Diamond Bank', 'Ecobank', 'Wema Bank', 'Sterling Bank', 'United Bank Of Africa', 'First Bank', 'Unity Bank', 'Fidelity Bank', 'Jaiz Bank', 'Stanbic IBTC Plc', 'Guaranty Trust Bank', 'Skye Bank', 'Kuda Bank'];
   void testing ()async {
     result = await GetAccountName().getName(name, bankCode);
     setState(() {
